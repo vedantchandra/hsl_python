@@ -83,7 +83,7 @@ def dfa(x, scale_lim=[5,9], scale_dens=0.25, show=False):
         plt.ylabel(r'$\log_{10}$<F(t)>')
         plt.legend()
         plt.show()
-    return scales, fluct, coeff[0]
+    return coeff[0]
 
 
 if __name__=='__main__':
